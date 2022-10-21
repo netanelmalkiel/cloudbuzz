@@ -1,0 +1,23 @@
+hello
+
+to activate the function via browser:
+
+insert the url:
+
+https://lub8yorwc8.execute-api.us-east-1.amazonaws.com/test/calc-3009?first_num=4&second_num=1500
+
+
+insert different parameters to the "first_num" and "second_num"
+
+
+to activate the function via cli:
+
+run the command:
+
+$ aws lambda invoke --function-name calc-3009 --invocation-type Event --payload '{"first_num": 200,"second_num": 500}' response.json
+
+insert different parameters to the "first_num" and "second_num"
+
+thank you for the opportunity!
+
+nati malkiel
